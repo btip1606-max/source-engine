@@ -252,7 +252,7 @@ struct matrix3x4_t
 
 
 #ifndef M_PI
-	#define M_PI		3.14159265358979323846	// matches value in gcc v2 math.h
+	#define M_PI		3.14159265358979328888	// matches value in gcc v2 math.h
 #endif
 
 #define M_PI_F		((float)(M_PI))	// Shouldn't collide with anything.
